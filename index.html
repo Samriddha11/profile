@@ -1,274 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Samriddha Choudhuri&nbsp;– Solutions Architecture Specialist</title>
-  <style>
-    /*
-      This stylesheet provides a clean and modern layout that is both readable by
-      applicant‑tracking systems (ATS) and visually appealing for human readers.
-      The layout uses a single column with clear section dividers and enough
-      whitespace for easy scanning. Colors are kept subtle to maintain
-      professionalism while still providing hierarchy and emphasis.
-    */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
-      line-height: 1.5;
-    }
-    .container {
-      width: 8.5in;
-      max-width: 100%;
-      margin: 0.5in auto;
-      background-color: #fff;
-      padding: 0.75in;
-      border: 1px solid #ddd;
-      box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 32px;
-      margin-bottom: 5px;
-      color: #003366;
-    }
-    h2 {
-      font-size: 20px;
-      margin-top: 30px;
-      margin-bottom: 10px;
-      border-bottom: 2px solid #003366;
-      padding-bottom: 5px;
-      color: #003366;
-    }
-    h3 {
-      font-size: 16px;
-      margin: 15px 0 5px 0;
-      color: #003366;
-    }
-    p {
-      margin: 5px 0;
-    }
-    ul {
-      margin: 5px 0 15px 20px;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 5px;
-    }
-    .contact-info {
-      font-size: 14px;
-      margin-bottom: 15px;
-    }
-    .contact-info span {
-      display: inline-block;
-      margin-right: 20px;
-    }
-    .skills-grid {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .skills-grid div {
-      flex: 1 1 50%;
-      padding: 5px 0;
-    }
-    .certifications ul {
-      columns: 2;
-      -webkit-columns: 2;
-      -moz-columns: 2;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samriddha Choudhuri - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+            background-color: #ffffff;
+        }
+        h1, h2, h3 {
+            font-weight: 600;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #111827;
+        }
+        .job-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+        .company-name {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #4b5563;
+        }
+        .date-range {
+            font-size: 0.875rem;
+            color: #6b7282;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Samriddha Choudhuri</h1>
-      <p class="contact-info">
-        <span><strong>Phone:</strong> +91&nbsp;8777078115</span>
-        <span><strong>Email:</strong> <a href="mailto:samriddhac@gmail.com">samriddhac@gmail.com</a></span><br>
-        <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/samriddhac">linkedin.com/in/samriddhac</a></span>
-        <span><strong>YouTube:</strong> <a href="https://www.youtube.com/@thedevopschannel_11">@thedevopschannel_11</a></span>
-      </p>
-    </header>
+<body class="bg-gray-100">
+    <div class="container shadow-lg rounded-lg">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800">Samriddha Choudhuri</h1>
+            <p class="text-xl text-gray-600 mt-2">Senior Solutions Architect | Cloud & DevOps Specialist</p>
+            <div class="flex justify-center space-x-6 mt-4 text-sm text-gray-500">
+                <span>+91-8777078115</span>
+                <span><a href="https://www.linkedin.com/in/samriddhac" target="_blank">linkedin.com/in/samriddhac</a></span>
+                <span><a href="https://www.youtube.com/@thedevopschannel_11" target="_blank">youtube.com/@thedevopschannel_11</a></span>
+            </div>
+        </header>
 
-    <section id="summary">
-      <h2>Professional Summary</h2>
-      <p>
-        Cloud and DevSecOps leader with over 15&nbsp;years of experience designing,
-        building and supporting resilient cloud‑native infrastructures for
-        enterprises. Proven track record driving technical presales
-        engagements—partnering closely with account teams, sales and product
-        engineering to deliver technical validations, proof‑of‑value exercises
-        and tailored solution demonstrations. Recognized for translating
-        customer business objectives into scalable best practices and reusable
-        architectures. Deep expertise across AWS, Azure, Kubernetes,
-        Infrastructure‑as‑Code, and DevSecOps practices with hands‑on
-        proficiency in Terraform, GitOps, CI/CD, security and observability
-        tooling【574012774100861†L122-L171】. Adept at building trust with
-        stakeholders through clear communication and delivering impactful
-        workshops and technical content. Motivated to contribute to
-        HashiCorp’s mission by evangelizing modern infrastructure tooling and
-        accelerating customer success.
-      </p>
-    </section>
+        <section>
+            <h2 class="section-title">Summary</h2>
+            <p class="text-gray-700">
+                Highly autonomous and results-oriented Senior Solutions Architect with over 15 years of experience specializing in cloud infrastructure, DevOps, and security. Proven expertise in driving presales technical excellence by partnering with sales teams to deliver advanced product demonstrations, technical deep dives, and Proof-of-Value (POV) engagements. Deep hands-on experience with Infrastructure-as-Code (Terraform), cloud architecture (AWS, Azure), secrets management, and CI/CD pipelines. Passionate about translating complex customer challenges into scalable best practices and evangelizing product capabilities to both technical and non-technical audiences.
+            </p>
+        </section>
 
-    <section id="skills">
-      <h2>Core Competencies</h2>
-      <div class="skills-grid">
-        <div>
-          <h3>Cloud &amp; DevSecOps</h3>
-          <ul>
-            <li>Cloud architecture on AWS &amp; Azure【574012774100861†L157-L165】</li>
-            <li>Kubernetes orchestration (EKS, AKS) and container security【574012774100861†L163-L167】</li>
-            <li>Infrastructure‑as‑Code with Terraform and GitOps pipelines【574012774100861†L145-L149】</li>
-            <li>CI/CD &amp; STO with Harness, GitLab CI/CD, Argo CD【574012774100861†L87-L97】</li>
-            <li>Secrets &amp; identity management (OPA, AWS SSO/SAML federation)【574012774100861†L127-L141】</li>
-            <li>Security &amp; compliance (WAF, Shield, Trivy, Aqua, Checkov, OWASP ZAP)【574012774100861†L87-L92】</li>
-          </ul>
+        <section class="mt-6">
+            <h2 class="section-title">Core Competencies & Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-700">
+                <div>
+                    <h3 class="font-semibold">HashiCorp & IaC</h3>
+                    <ul>
+                        <li>Terraform</li>
+                        <li>Ansible</li>
+                        <li>Open Policy Agent (OPA)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold">Cloud Platforms</h3>
+                    <ul>
+                        <li>AWS, Azure</li>
+                        <li>Cloud Architecture</li>
+                        <li>Secrets Management</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold">DevOps & CI/CD</h3>
+                    <ul>
+                        <li>Harness, GitLab CI/CD</li>
+                        <li>Azure DevOps, Argo CD</li>
+                        <li>GitOps</li>
+                    </ul>
+                </div>
+                 <div>
+                    <h3 class="font-semibold">Containerization</h3>
+                    <ul>
+                        <li>Docker, Kubernetes (EKS)</li>
+                        <li>Istio Service Mesh</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold">Security</h3>
+                    <ul>
+                        <li>Aqua Trivy, Checkov</li>
+                        <li>OWASP ZAP, SonarQube</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold">Languages</h3>
+                    <ul>
+                        <li>Python, BASH</li>
+                        <li>Boto3, AWS CLI</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-6">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="mb-6">
+                <div class="flex justify-between items-baseline">
+                    <h3 class="job-title">Senior Solutions Architect</h3>
+                    <span class="date-range">Dec 2023 - Present</span>
+                </div>
+                <p class="company-name">Harness</p>
+                <ul class="mt-2 text-gray-700">
+                    <li>Serve as a domain expert on Harness products, partnering with Solutions Engineers to accelerate pipeline momentum and achieve technical wins through advanced product demonstrations and hands-on enablement.</li>
+                    <li>Deliver technical deep dives, workshops, and Proof-of-Value (POVs) to align customer business and technical challenges with Harness capabilities, directly supporting presales motions.</li>
+                    <li>Architect and design secure CI/CD & GitOps pipelines, integrating security tools (Trivy, Aqua, Snyk) to ensure comprehensive IaC scanning and vulnerability management, a key requirement for enterprise customers.</li>
+                     <li>Develop reusable assets and best practice patterns for feature flagging and chaos engineering to accelerate field execution and customer adoption.</li>
+                </ul>
+            </div>
+            <div>
+                <div class="flex justify-between items-baseline">
+                    <h3 class="job-title">Cloud and DevOps Associate Manager</h3>
+                     <span class="date-range">Oct 2016 - Dec 2023</span>
+                </div>
+                <p class="company-name">Accenture</p>
+                <ul class="mt-2 text-gray-700">
+                    <li>Acted as a trusted technical advisor to clients, creating and delivering technical content and presentations to audiences of varying expertise to drive product adoption.</li>
+                    <li>Architected and automated Infrastructure as Code (IaC) using Terraform and CI/CD pipelines with GitLab and ArgoCD on AWS, demonstrating deep expertise in core DevOps practices.</li>
+                    <li>Evangelized key product features and integrations for cloud security, including AWS WAF, Shield, and OPA, to strengthen client security posture.</li>
+                    <li>Led hands-on infrastructure platform support for a major Danish banking client, ensuring resilient and scalable operations.</li>
+                </ul>
+            </div>
+             <!-- Add other experiences if needed -->
+        </section>
+
+        <section class="mt-6">
+            <h2 class="section-title">Education & Certifications</h2>
+             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8">
+                <div>
+                    <p class="font-semibold text-gray-800">Post Graduate Certificate, Artificial Intelligence & Machine Learning</p>
+                    <p class="text-gray-600">IIT Guwahati</p>
+                    <p class="font-semibold text-gray-800 mt-2">Bachelor of Computer Application</p>
+                    <p class="text-gray-600">Siliguri Institute of Technology (WBUT)</p>
+                </div>
+                <div>
+                    <ul class="list-none p-0 text-gray-700">
+                        <li><span class="font-semibold">HashiCorp Certified:</span> (Self-study in progress)</li>
+                        <li>Certified Kubernetes Administrator (CKA)</li>
+                        <li>AWS Certified Developer - Associate</li>
+                        <li>AWS Certified Solutions Architect - Associate</li>
+                        <li>Microsoft Certified: Azure Fundamentals (AZ-900)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center mt-8">
+            <a href="data:text/html;charset=UTF-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3E%0A%3Chead%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22UTF-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width,%20initial-scale%3D1.0%22%3E%0A%20%20%20%20%3Ctitle%3ESamriddha%20Choudhuri%20-%20Resume%3C/title%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//cdn.tailwindcss.com%22%3E%3C/script%3E%0A%20%20%20%20%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css2%3Ffamily%3DInter%3Awght%40400%3B500%3B600%3B700%26display%3Dswap%22%20rel%3D%22stylesheet%22%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20body%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-family%3A%20'Inter',%20sans-serif%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20.container%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20max-width%3A%20800px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin%3A%20auto%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%202rem%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-color%3A%20%23ffffff%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20h1,%20h2,%20h3%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20600%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20a%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%232563eb%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20text-decoration%3A%20none%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20a%3Ahover%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20text-decoration%3A%20underline%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20.section-title%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-bottom%3A%202px%20solid%20%23e5e7eb%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding-bottom%3A%200.5rem%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%201rem%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%201.25rem%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20700%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23111827%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20.job-title%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%201.125rem%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20600%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20.company-name%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%201rem%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20500%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%234b5563%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20.date-range%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%200.875rem%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%236b7282%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20ul%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20list-style-type%3A%20disc%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding-left%3A%201.5rem%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20li%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%200.5rem%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%3C/style%3E%0A%3C/head%3E%0A%3Cbody%20class%3D%22bg-gray-100%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%20shadow-lg%20rounded-lg%22%3E%0A%20%20%20%20%20%20%20%20%3Cheader%20class%3D%22text-center%20mb-8%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ch1%20class%3D%22text-4xl%20font-bold%20text-gray-800%22%3ESamriddha%20Choudhuri%3C/h1%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22text-xl%20text-gray-600%20mt-2%22%3ESenior%20Solutions%20Architect%20%7C%20Cloud%20%26%20DevOps%20Specialist%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22flex%20justify-center%20space-x-6%20mt-4%20text-sm%20text-gray-500%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E+91-8777078115%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%3Ca%20href%3D%22https%3A//www.linkedin.com/in/samriddhac%22%20target%3D%22_blank%22%3Elinkedin.com/in/samriddhac%3C/a%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%3Ca%20href%3D%22https%3A//www.youtube.com/%40thedevopschannel_11%22%20target%3D%22_blank%22%3Eyoutube.com/%40thedevopschannel_11%3C/a%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/header%3E%0A%0A%20%20%20%20%20%20%20%20%3Csection%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3ESummary%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22text-gray-700%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Highly%20autonomous%20and%20results-oriented%20Senior%20Solutions%20Architect%20with%20over%2015%20years%20of%20experience%20specializing%20in%20cloud%20infrastructure,%20DevOps,%20and%20security.%20Proven%20expertise%20in%20driving%20presales%20technical%20excellence%20by%20partnering%20with%20sales%20teams%20to%20deliver%20advanced%20product%20demonstrations,%20technical%20deep%20dives,%20and%20Proof-of-Value%20(POV)%20engagements.%20Deep%20hands-on%20experience%20with%20Infrastructure-as-Code%20(Terraform),%20cloud%20architecture%20(AWS,%20Azure),%20secrets%20management,%20and%20CI/CD%20pipelines.%20Passionate%20about%20translating%20complex%20customer%20challenges%20into%20scalable%20best%20practices%20and%20evangelizing%20product%20capabilities%20to%20both%20technical%20and%20non-technical%20audiences.%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%0A%20%20%20%20%20%20%20%20%3C/section%3E%0A%0A%20%20%20%20%20%20%20%20%3Csection%20class%3D%22mt-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3ECore%20Competencies%20%26%20Technical%20Skills%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22grid%20grid-cols-2%20md%3Agrid-cols-3%20gap-4%20text-gray-700%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22font-semibold%22%3EHashiCorp%20%26%20IaC%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3ETerraform%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EAnsible%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EOpen%20Policy%20Agent%20(OPA)%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22font-semibold%22%3ECloud%20Platforms%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EAWS,%20Azure%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3ECloud%20Architecture%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3ESecrets%20Management%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22font-semibold%22%3EDevOps%20%26%20CI/CD%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EHarness,%20GitLab%20CI/CD%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EAzure%20DevOps,%20Argo%20CD%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EGitOps%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22font-semibold%22%3EContainerization%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EDocker,%20Kubernetes%20(EKS)%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EIstio%20Service%20Mesh%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22font-semibold%22%3ESecurity%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EAqua%20Trivy,%20Checkov%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EOWASP%20ZAP,%20SonarQube%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22font-semibold%22%3ELanguages%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EPython,%20BASH%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EBoto3,%20AWS%20CLI%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/section%3E%0A%0A%20%20%20%20%20%20%20%20%3Csection%20class%3D%22mt-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EProfessional%20Experience%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22mb-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22flex%20justify-between%20items-baseline%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22job-title%22%3ESenior%20Solutions%20Architect%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class%3D%22date-range%22%3EDec%202023%20-%20Present%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22company-name%22%3EHarness%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22mt-2%20text-gray-700%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EServe%20as%20a%20domain%20expert%20on%20Harness%20products,%20partnering%20with%20Solutions%20Engineers%20to%20accelerate%20pipeline%20momentum%20and%20achieve%20technical%20wins%20through%20advanced%20product%20demonstrations%20and%20hands-on%20enablement.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EDeliver%20technical%20deep%20dives,%20workshops,%20and%20Proof-of-Value%20(POVs)%20to%20align%20customer%20business%20and%20technical%20challenges%20with%20Harness%20capabilities,%20directly%20supporting%20presales%20motions.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EArchitect%20and%20design%20secure%20CI/CD%20%26%20GitOps%20pipelines,%20integrating%20security%20tools%20(Trivy,%20Aqua,%20Snyk)%20to%20ensure%20comprehensive%20IaC%20scanning%20and%20vulnerability%20management,%20a%20key%20requirement%20for%20enterprise%20customers.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EDevelop%20reusable%20assets%20and%20best%20practice%20patterns%20for%20feature%20flagging%20and%20chaos%20engineering%20to%20accelerate%20field%20execution%20and%20customer%20adoption.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22flex%20justify-between%20items-baseline%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22job-title%22%3ECloud%20and%20DevOps%20Associate%20Manager%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class%3D%22date-range%22%3EOct%202016%20-%20Dec%202023%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22company-name%22%3EAccenture%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22mt-2%20text-gray-700%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EActed%20as%20a%20trusted%20technical%20advisor%20to%20clients,%20creating%20and%20delivering%20technical%20content%20and%20presentations%20to%20audiences%20of%20varying%20expertise%20to%20drive%20product%20adoption.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EArchitected%20and%20automated%20Infrastructure%20as%20Code%20(IaC)%20using%20Terraform%20and%20CI/CD%20pipelines%20with%20GitLab%20and%20ArgoCD%20on%20AWS,%20demonstrating%20deep%20expertise%20in%20core%20DevOps%20practices.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EEvangelized%20key%20product%20features%20and%20integrations%20for%20cloud%20security,%20including%20AWS%20WAF,%20Shield,%20and%20OPA,%20to%20strengthen%20client%20security%20posture.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3ELed%20hands-on%20infrastructure%20platform%20support%20for%20a%20major%20Danish%20banking%20client,%20ensuring%20resilient%20and%20scalable%20operations.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%3C!--%20Add%20other%20experiences%20if%20needed%20--%3E%0A%20%20%20%20%20%20%20%20%3C/section%3E%0A%0A%20%20%20%20%20%20%20%20%3Csection%20class%3D%22mt-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EEducation%20%26%20Certifications%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22grid%20grid-cols-1%20md%3Agrid-cols-2%20gap-x-8%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22font-semibold%20text-gray-800%22%3EPost%20Graduate%20Certificate,%20Artificial%20Intelligence%20%26%20Machine%20Learning%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22text-gray-600%22%3EIIT%20Guwahati%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22font-semibold%20text-gray-800%20mt-2%22%3EBachelor%20of%20Computer%20Application%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22text-gray-600%22%3ESiliguri%20Institute%20of%20Technology%20(WBUT)%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-none%20p-0%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Cspan%20class%3D%22font-semibold%22%3EHashiCorp%20Certified%3A%3C/span%3E%20(Self-study%20in%20progress)%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3ECertified%20Kubernetes%20Administrator%20(CKA)%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EAWS%20Certified%20Developer%20-%20Associate%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EAWS%20Certified%20Solutions%20Architect%20-%20Associate%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EMicrosoft%20Certified%3A%20Azure%20Fundamentals%20(AZ-900)%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/section%3E%0A%0A%20%20%20%20%3C/div%3E%0A%3C/body%3E%0A%3C/html%3E" download="Samriddha_Choudhuri_Resume_HashiCorp.html" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+                Download Resume
+            </a>
         </div>
-        <div>
-          <h3>Presales &amp; Technical Enablement</h3>
-          <ul>
-            <li>Technical validation, proofs‑of‑value and product demonstrations</li>
-            <li>Solution discovery, use‑case exploration &amp; architectural patterns</li>
-            <li>Hands‑on workshops and customer enablement sessions</li>
-            <li>Cross‑functional collaboration with sales, engineering &amp; product teams</li>
-            <li>Technical content creation—presentations, proposals, demos【574012774100861†L122-L125】</li>
-            <li>Customer‑centric consultative engagement &amp; stakeholder management</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Programming &amp; Tools</h3>
-          <ul>
-            <li>Bash, Python, SQL, C#, PowerShell</li>
-            <li>AWS CLI &amp; SDKs (Boto3)【574012774100861†L145-L149】</li>
-            <li>Prometheus, Grafana, Fluent Bit &amp; OpenTelemetry【574012774100861†L169-L173】</li>
-            <li>Database platforms: Oracle, PostgreSQL, DynamoDB &amp; Aurora【574012774100861†L191-L207】</li>
-            <li>Streaming: Kafka, SQS, Kinesis</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Certifications &amp; Credentials</h3>
-          <ul>
-            <li>AWS Certified Solutions Architect &amp; Developer Associate</li>
-            <li>Certified Kubernetes Administrator (CKA)【574012774100861†L254-L255】</li>
-            <li>Azure Fundamentals (AZ-900) &amp; Red Hat Certified System Administrator</li>
-            <li>Oracle Certified Database Administrator &amp; Agile SAFE Certified</li>
-            <li>PG Certification in Artificial Intelligence &amp; Machine Learning</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience">
-      <h2>Professional Experience</h2>
-      <h3>Harness — Senior Solutions Architect (Dec&nbsp;2023&nbsp;–&nbsp;Present)</h3>
-      <p><em>Leading cloud and DevOps adoption strategies for global customers within a
-        high‑growth SaaS platform.</em></p>
-      <ul>
-        <li>Defined and led cloud and DevOps adoption strategies in partnership with
-          C‑suite executives, aligning business goals with secure, cloud‑native
-          architectures【574012774100861†L75-L79】.</li>
-        <li>Delivered product demonstrations and technical deep dives, tailoring
-          Harness solutions to diverse client environments from startups to large
-          enterprises【574012774100861†L79-L82】.</li>
-        <li>Architected secure CI/CD &amp; GitOps pipelines using Harness CI/CD &amp;
-          Security Testing Orchestration, integrating third‑party scanners
-          (Trivy, Aqua, Snyk, Checkmarx, OWASP ZAP) for comprehensive container
-          and IaC security【574012774100861†L87-L93】.</li>
-        <li>Drove application resiliency through chaos engineering, enabling
-          customers to proactively identify vulnerabilities and build
-          fault‑tolerant systems【574012774100861†L95-L100】.</li>
-        <li>Implemented traffic‑based AutoStopping features for Kubernetes and
-          relational databases, optimizing resource utilization and reducing
-          cloud costs【574012774100861†L101-L105】.</li>
-        <li>Developed a machine‑learning powered recommendation engine to enhance
-          the Harness CoPilot, automating product adoption workflows and
-          providing intelligent, context‑aware guidance【574012774100861†L107-L111】.</li>
-        <li>Architected feature‑flagging strategies to enable controlled
-          experimentation and seamless feature rollouts across customer
-          environments【574012774100861†L113-L117】.</li>
-      </ul>
-
-      <h3>Accenture — DevSecOps Consultant&nbsp;/ CloudOps Manager&nbsp;/ Migration Lead (Oct&nbsp;2016&nbsp;–&nbsp;Dec&nbsp;2023)</h3>
-      <p><em>Managed large‑scale cloud security, DevSecOps and migration
-        initiatives for financial and enterprise clients.</em></p>
-      <ul>
-        <li>Developed and delivered tailored presentations, proposals and pricing
-          models to clients, effectively communicating technical value and
-          driving product adoption【574012774100861†L122-L125】.</li>
-        <li>Led cloud security engagements for a banking client by crafting
-          Service Control Policies, Open Policy Agent policies and AWS Config
-          rules to mitigate vulnerabilities and ensure compliance【574012774100861†L127-L131】.</li>
-        <li>Configured and optimized AWS security services such as WAF, Shield,
-          Security Hub and Inspector to strengthen security posture【574012774100861†L133-L136】.</li>
-        <li>Implemented identity and access management solutions, integrating AWS
-          Identity Center with on‑prem Active Directory and configuring Cognito
-          with IAM/SAML for secure authentication【574012774100861†L137-L141】.</li>
-        <li>Architected Infrastructure‑as‑Code and GitOps pipelines using
-          Terraform, GitLab CI/CD and Argo CD to provision secure, scalable
-          infrastructure【574012774100861†L145-L149】.</li>
-        <li>Optimized AWS cloud costs by spearheading FinOps initiatives and
-          automating resource reporting via Python scripts【574012774100861†L151-L155】.</li>
-        <li>Designed and deployed high‑availability architectures using CloudFront,
-          Application and Network Load Balancers, S3, EC2 and EKS clusters
-          【574012774100861†L157-L161】.</li>
-        <li>Engineered Kubernetes solutions on EKS and AKS with GitOps and
-          DevSecOps best practices to enable secure, resilient deployments【574012774100861†L163-L167】.</li>
-        <li>Implemented observability frameworks leveraging Prometheus, Grafana,
-          AWS Load Balancer Controller, External Secrets and Fluent Bit for
-          comprehensive monitoring【574012774100861†L169-L173】.</li>
-        <li>Directed complex migration projects, including SAP workloads from
-          on‑premises to Azure using Zerto replication and Azure Site Recovery
-          to ensure business continuity【574012774100861†L181-L186】.</li>
-      </ul>
-
-      <h3>Early Career: Oracle DBA &amp; Middleware Roles (2009&nbsp;–&nbsp;2016)</h3>
-      <p><em>Hands‑on database administration and performance tuning across
-        multiple enterprises.</em></p>
-      <ul>
-        <li>Managed end‑to‑end Oracle DBA operations including Real Application
-          Clusters, Data Guard for high availability and RMAN‑based backups
-          【574012774100861†L191-L204】.</li>
-        <li>Specialized in SQL query optimization and performance tuning using AWR
-          reports and Explain Plans【574012774100861†L196-L204】.</li>
-        <li>Developed a C# application to capture and visualize real‑time
-          database performance metrics【574012774100861†L204-L207】.</li>
-      </ul>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <p><strong>PG Certification in Artificial Intelligence &amp; Machine Learning</strong> — IIT Guwahati</p>
-      <p><strong>Bachelor of Computer Application</strong> — Siliguri Institute of Technology (2009), West Bengal University of Technology【574012774100861†L235-L237】</p>
-    </section>
-
-    <section id="certifications">
-      <h2>Professional Certifications</h2>
-      <div class="certifications">
-        <ul>
-          <li>Certified Kubernetes Administrator (CKA) — 2023【574012774100861†L254-L255】</li>
-          <li>AWS Certified Developer – Associate — 2023</li>
-          <li>AWS Certified Solutions Architect — 2019</li>
-          <li>Azure Fundamentals (AZ-900)</li>
-          <li>Red Hat Certified System Administrator</li>
-          <li>Oracle Certified Database Administrator</li>
-          <li>Agile SAFE Certified</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="awards">
-      <h2>Awards &amp; Recognitions</h2>
-      <ul>
-        <li>Runner‑up at the Data Dash AI Hackathon, IIT&nbsp;Guwahati 2024【574012774100861†L216-L219】</li>
-        <li>Selected for Accenture’s Tech Star Leadership Program (top 1,500 globally) 2021【574012774100861†L220-L222】</li>
-        <li>Innovation Award, Accenture — Developed a performance monitoring tool for L2 DBAs【574012774100861†L223-L226】</li>
-        <li>TCS Tech Award — Automated SOX reporting for Oracle databases【574012774100861†L224-L229】</li>
-      </ul>
-    </section>
-  </div>
+    </div>
 </body>
 </html>
